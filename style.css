@@ -34,8 +34,10 @@ h2{
     margin-left: auto; 
     font-family: fantasy;
     height: max-content;
-    color: black;
-    font-size: 130%;
+	color: black;
+	font-weight: bold;
+	font-size: 130%;
+	background-color: rgb(177, 238, 220);
 } 
 
 p.card-text {
@@ -46,6 +48,12 @@ p.card-text {
 div.card-text {
     font-weight: bold;
     font-size: x-large;
+}
+
+div.card-header{
+	font-size: xx-large;
+	font-weight: bold;
+	
 }
 
 ul.social-network {
